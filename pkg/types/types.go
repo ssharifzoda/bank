@@ -32,6 +32,7 @@ type Card struct {
 	Active     bool
 	MinBalance Money
 }
+
 type Payment struct {
 	ID       int
 	Amount   Money
